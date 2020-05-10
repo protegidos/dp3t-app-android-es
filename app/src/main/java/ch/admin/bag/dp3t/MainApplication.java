@@ -43,16 +43,18 @@ public class MainApplication extends Application {
 	public void onCreate() {
 		super.onCreate();
 
-		if (BuildConfig.IS_DEV) {
-			BackendBucketRepository.BATCH_LENGTH = 5 * 60 * 1000L;
-			Logger.init(getApplicationContext(), LogLevel.DEBUG);
-		}
-
 		if (ProcessUtil.isMainProcess(this)) {
 			registerReceiver(contactUpdateReceiver, DP3T.getUpdateIntentFilter());
 
 			PublicKey signaturePublicKey = SignatureUtil.getPublicKeyFromBase64OrThrow(BuildConfig.BUCKET_PUBLIC_KEY);
 			DP3T.init(this, new ApplicationInfo("dp3t-app", BuildConfig.REPORT_URL, BuildConfig.BUCKET_URL), signaturePublicKey);
+
+			if (BuildConfig.IS_DEV) {
+				BackendBucketRepository.BATCH_LENGTH = 10 * 60 * 1000L;
+				DP3T.setMatchingParameters(this, 73.0f,
+						1);
+				Logger.init(getApplicationContext(), LogLevel.DEBUG);
+			}
 
 			DP3T.setCertificatePinner(CertificatePinning.getCertificatePinner());
 			ConfigRepository.setCertificatePinner(CertificatePinning.getCertificatePinner());

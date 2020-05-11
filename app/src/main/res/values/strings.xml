@@ -11,10 +11,10 @@
 <resources>
 
     <!-- App Name -->
-    <string name="app_name">"Swiss PT"</string>
+    <string name="app_name">"Protegidos"</string>
 
     <!-- App Name (unter Icon auf iOS) -->
-    <string name="CFBundleDisplayName">"Swiss PT"</string>
+    <string name="CFBundleDisplayName">"Protegidos"</string>
 
     <!-- Loading View: Erneut laden -->
     <string name="loading_view_reload">"Reload"</string>
@@ -372,7 +372,7 @@ Infoline Coronavirus
     <string name="onboarding_prinzip_title">"Staying one step ahead of the virus"</string>
 
     <!-- Onboarding Prinzip Text -->
-    <string name="onboarding_prinzip_text1">"By using the Swiss PT app, we can all help to contain the spread of the new coronavirus."</string>
+    <string name="onboarding_prinzip_text1">"By using the Protegidos app, we can all help to contain the spread of the new coronavirus."</string>
 
     <!-- Onboarding Prinzip Text -->
     <string name="onboarding_prinzip_text2">"The app provides information on suspected infections. In this way, the chain of infection can be broken."</string>
@@ -754,7 +754,7 @@ Infoline Coronavirus
     <string name="inform_detail_faq2_title">"How do I remain anonymous?"</string>
 
     <!-- Inform Detail FAQ Text -->
-    <string name="inform_detail_faq2_text">"Only the temporary keys from your app are sent. No personal data. Other Swiss PT apps can then check if they have had an encounter with your app in the past few days."</string>
+    <string name="inform_detail_faq2_text">"Only the temporary keys from your app are sent. No personal data. Other Protegidos apps can then check if they have had an encounter with your app in the past few days."</string>
 
     <!-- Informieren: Titel Tracing beendet -->
     <string name="inform_send_endtracing_title">"Tracing ended"</string>

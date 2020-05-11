@@ -11,10 +11,10 @@
 <resources>
 
 	<!-- App Name -->
-	<string name="app_name">"Swiss PT"</string>
+	<string name="app_name">"Protegidos"</string>
 
 	<!-- App Name (unter Icon auf iOS) -->
-	<string name="CFBundleDisplayName">"Swiss PT"</string>
+	<string name="CFBundleDisplayName">"Protegidos"</string>
 
 	<!-- Loading View: Erneut laden -->
 	<string name="loading_view_reload">"Erneut laden"</string>
@@ -378,7 +378,7 @@ Infoline Coronavirus
 Schritt voraus"</string>
 
 	<!-- Onboarding Prinzip Text -->
-	<string name="onboarding_prinzip_text1">"Mit der Swiss PT App können alle dazu beitragen die Verbreitung des neuen Coronavirus einzudämmen."</string>
+	<string name="onboarding_prinzip_text1">"Mit der Protegidos App können alle dazu beitragen die Verbreitung des neuen Coronavirus einzudämmen."</string>
 
 	<!-- Onboarding Prinzip Text -->
 	<string name="onboarding_prinzip_text2">"Die App informiert im Verdachtsfall. So können Infektionsketten unterbrochen werden."</string>
@@ -782,7 +782,7 @@ Damit wird sichergestellt, dass nur bestätigte Fälle über die App gemeldet we
 	<!-- Inform Detail FAQ Text -->
 	<string name="inform_detail_faq2_text">"Es werden nur die temporären Schlüssel Ihrer App gesendet. Keine persönlichen Daten.
 
-Damit können andere Swiss PT App Nutzer prüfen, ob Sie in den letzten Tagen eine Begegnung mit Ihnen hatten."</string>
+Damit können andere Protegidos App Nutzer prüfen, ob Sie in den letzten Tagen eine Begegnung mit Ihnen hatten."</string>
 
 	<!-- Informieren: Titel Tracing beendet -->
 	<string name="inform_send_endtracing_title">"Tracing beendet"</string>

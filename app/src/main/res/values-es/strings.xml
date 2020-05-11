@@ -344,7 +344,7 @@ Gracias por ayudar a contener la propagación del coronavirus."</string>
 
 	<string name="meldungen_detail_guard_text">"Si tienes alguna pregunta:
 Infoline Coronavirus
-+41 58 387 77 78"</string>
++34 00 00 00 000"</string>
 
 
 	<string name="meldungen_detail_call_again_button">"Llama de nuevo"</string>
@@ -522,7 +522,7 @@ Infoline Coronavirus
 
 
 	<string name="inform_code_invalid_subtitle">"Si tiene alguna pregunta contacte a través del siguiente número de teléfono:
-+41 58 466 07 99"</string>
++34 00 00 00 000"</string>
 
 
 	<string name="date_one_day_ago">"Hace 1 día"</string>
@@ -753,7 +753,7 @@ Infoline Coronavirus
 	<string name="inform_send_endtracing_text">"Después de un texto positivo, el seguimiento finaliza automáticamente."</string>
 
 
-	<string name="infoline_tel_number">"+41 58 387 77 78"</string>
+	<string name="infoline_tel_number">"+34 00 00 00 000"</string>
 
 
 	<string name="faq_button_url">"https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/haeufig-gestellte-fragen.html"</string>

@@ -109,8 +109,7 @@ public class InformFragment extends Fragment {
 	}
 
 	private void authenticateInput(String authCode) {
-		informExposed(new Date(), authCode);
-		/*AuthCodeRepository authCodeRepository = new AuthCodeRepository(getContext());
+		AuthCodeRepository authCodeRepository = new AuthCodeRepository(getContext());
 		authCodeRepository.getAccessToken(new AuthenticationCodeRequestModel(authCode, 0),
 				new ResponseCallback<AuthenticationCodeResponseModel>() {
 					@Override
@@ -147,7 +146,7 @@ public class InformFragment extends Fragment {
 						}
 						buttonSend.setEnabled(true);
 					}
-				});*/
+				});
 	}
 
 	private void informExposed(Date onsetDate, String authorizationHeader) {

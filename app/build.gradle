@@ -45,7 +45,7 @@ android {
 	productFlavors {
 		dev {
 			buildConfigField 'boolean', 'IS_DEV', 'true'
-			buildConfigField 'String', 'AUTH_CODE_URL', '"https://codegen-service-d.bag.admin.ch/"'
+			buildConfigField 'String', 'AUTH_CODE_URL', '"https://emasab.duckdns.org:4433/"'
 			buildConfigField 'String', 'CONFIG_URL', '"https://emasab.duckdns.org:4433/"'
 			buildConfigField 'String', 'BUCKET_URL', '"https://emasab.duckdns.org:4433/"'
 			buildConfigField 'String', 'REPORT_URL', '"https://emasab.duckdns.org:4433/"'

@@ -51,8 +51,6 @@ public class MainApplication extends Application {
 
 			if (BuildConfig.IS_DEV) {
 				BackendBucketRepository.BATCH_LENGTH = 10 * 60 * 1000L;
-				DP3T.setMatchingParameters(this, 73.0f,
-						1);
 				Logger.init(getApplicationContext(), LogLevel.DEBUG);
 			}
 
